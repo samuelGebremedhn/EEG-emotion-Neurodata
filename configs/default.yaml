@@ -1,0 +1,15 @@
+sampling_rate: 128
+channels: 32
+low_hz: 4.0
+high_hz: 45.0
+window_seconds: 4.0
+window_overlap: 0.5
+baseline_seconds: 3.0
+label_threshold: 5.0
+bands:
+  delta: [1.0, 4.0]
+  theta: [4.0, 8.0]
+  alpha: [8.0, 13.0]
+  beta: [13.0, 30.0]
+  gamma: [30.0, 45.0]
+seed: 42
